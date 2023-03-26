@@ -1,0 +1,129 @@
+* {
+margin: 0;
+padding: 0;
+font-family: "Red Rose", cursive;
+box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./pexels-maxyne-barcel-1040.png");
+    /* height: 100vh;
+    width: 100vw; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 2.5%;
+    margin-left: 1%;
+    margin-bottom: 2.5%;
+    
+    
+}
+
+
+a:link {color: #ffc233;
+  font-family: "Red Rose";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;}
+a:visited {color:#ffc233;
+  font-family: "Red Rose";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;}
+a:hover {color: white;}
+li {
+  list-style: none;
+  cursor: pointer;
+  color: rgb(220, 208, 231);
+}
+a {
+  text-decoration: none;
+}
+.button-small {
+  background-color: #ff505f;
+  padding: 12px 40px;
+  font-family: "Red Rose";
+  font-style: normal;
+  font-size: 24px;
+  cursor: pointer;
+  color: white;
+  border: 1px solid white;
+  border-radius: 4px;
+  font-weight: 700;
+  width: fit-content;
+}
+.button-small:hover {
+  background-color: white;
+  color: #ff505f;
+  border: 1px solid black;
+}
+ nav {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+  }
+ nav li {
+display: flex;
+
+ }
+nav .logo {
+    font-weight: 700;
+    font-size: 25px;
+    display: flex;
+    align-items: left;
+  }
+  
+  nav ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-weight: 500;
+  }
+  
+  nav ul li:hover {
+    text-decoration: underline;
+    font-weight: 900;
+  }
+  .hero {
+    max-width: 1154px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 119px;
+  }
+  
+  .hero-heading {
+    font-family: "Dela Gothic One", cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 104px;
+    line-height: 110%;
+    color: #ffc233;
+  }
+  
+  .button-large {
+    background: #ff505f;
+    font-family: "Red Rose";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #ffffff;
+    border: none;
+    padding: 24px 56px;
+    margin-top: 64px;
+    cursor: pointer;
+  }
+  .button-large:hover {
+    background-color: white;
+    color: #ff505f;
+    border: 1px solid black;
+  }
+  
+  .bottom {
+    position: absolute;
+   
+    right: 40px;
+    
+  }
